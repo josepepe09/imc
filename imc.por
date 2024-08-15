@@ -1,32 +1,6 @@
 https://portugol.dev/#share=hq5kdv0
 programa {
   inclua biblioteca Util --> u
-
-  funcao inicio() {
-    inteiro esc, ano, idade2050, i
-    real altura, peso, imc, media, trimestre1, trimestre2, trimestre3, prova1, prova2, prova3, trabalho1, trabalho2, trabalho3, minimo, maximo, sorteios, numero_sorteado
-
-    escreva("-------------------------------------- \n")
-    escreva("               ESCOLHA                 \n")
-    escreva("-------------------------------------- \n")
-    escreva("\n[1] Para calcular o IMC. \n")
-    escreva("[2] Para calcular a média anual. \n")
-    escreva("[3] Para descobrir sua idade em 2050. \n")
-    escreva("[4] Para sortear um número aleatório. \n")
-    escreva("\nSua escolha: ")
-    leia(esc)
-  
-    se (esc == 1) {
-      escreva("---------------------------- \n")
-      escreva("  Vamos descobrir seu IMC!   \n")
-      escreva("---------------------------- \n")
-
-      escreva("\nQual o seu peso (kg)? ")
-      leia(peso)
-      escreva("Qual sua altura (m)? ")
-      leia(altura)programa {
-  inclua biblioteca Util --> u
-
   funcao inicio() {
     inteiro esc, ano, idade2050, i
     real altura, peso, imc, media, trimestre1, trimestre2, trimestre3, prova1, prova2, prova3, trabalho1, trabalho2, trabalho3, minimo, maximo, sorteios, numero_sorteado
